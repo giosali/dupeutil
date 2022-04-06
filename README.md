@@ -1,6 +1,30 @@
 <h1 align="center">dupeutil</h1>
 
 <p align="center">
+    <a href="https://pypi.org/project/dupeutil">
+        <img src="https://img.shields.io/pypi/v/dupeutil" alt="PyPI Version">
+    </a>
+    <a href="https://pypi.org/project/dupeutil">
+        <img src="https://img.shields.io/pypi/pyversions/dupeutil" alt="Supported Python Versions">
+    </a>
+</p>
+
+<p align="center">
+    <a href="https://github.com/psf/black">
+        <img src="https://img.shields.io/badge/code%20style-black-000000.svg" alt="Code Style">
+    </a>
+    <a href="https://github.com/giosali/dupeutil/actions/workflows/tests.yml">
+		<img src="https://github.com/giosali/dupeutil/actions/workflows/tests.yml/badge.svg" alt="Tests">
+	</a>
+    <a href="https://codecov.io/gh/giosali/dupeutil">
+        <img src="https://codecov.io/gh/giosali/dupeutil/branch/main/graph/badge.svg?token=AAXB6Q0SJA" alt="Code Coverage">
+    </a>
+    <a href="https://github.com/giosali/dupeutil/blob/main/LICENSE">
+        <img src="https://img.shields.io/pypi/l/dupeutil" alt="License">
+    </a>
+</p>
+
+<p align="center">
     A command-line program written in Python for detecting and removing duplicate files
 </p>
 
@@ -30,6 +54,8 @@ dupeutil
 ```
 
 That's it. The program will then check for duplicate files in the *current working directory* and provide you with a prompt that shows which duplicates were found and ask if you would like to remove them.
+
+<img src="https://raw.githubusercontent.com/giosali/dupeutil/main/ext/example.png" alt="Example" width="450">
 
 Alternatively, if you would like to check a particular directory without it being the current working directory, you can explicitly pass it a directory:
 
