@@ -22,7 +22,7 @@ def main():
         find_dupes_in_dir(pathlib.Path.cwd(), namespace.recursive, namespace.quiet)
 
 
-def parse_args() -> argparse.Namespace:
+def parse_args() -> argparse.Namespace:  # pragma: no cover
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "dir",
