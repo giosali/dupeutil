@@ -69,9 +69,6 @@ def find_dupes_in_dir(dir: str, recursive: bool, quiet: bool):
     if not p.is_dir():
         raise TypeError(f"'{p}' is not a path to a directory")
 
-    if not p.exists():
-        raise ValueError(f"'{p}' does not exist")
-
     files = [i for i in (p.rglob("*") if recursive else p.iterdir()) if i.is_file()]
     analyze_files(files, quiet)
 
