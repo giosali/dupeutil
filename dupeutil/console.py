@@ -30,7 +30,7 @@ def print_files(original: Path, dupes: list, pos: int, total: int):
     print_table_part(TablePart.BODY, Alignment.CENTER, str(original))
     print_table_part(TablePart.BODY, Alignment.CENTER, str(dt.strftime("%x @ %X")))
     print_table_part(TablePart.BODY, Alignment.CENTER, "")
-    
+
     print_table_part(TablePart.BODY, Alignment.CENTER, "Duplicates:")
     for c, dupe in enumerate(dupes, 1):
         n = f"{c}. "
