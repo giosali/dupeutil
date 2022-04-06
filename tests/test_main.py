@@ -1,4 +1,3 @@
-import argparse
 import pathlib
 
 import pytest
@@ -52,11 +51,6 @@ def test_main(monkeypatch):
     d = {}
     monkeypatch.setattr(main, "parse_args", lambda: DotDict(d))
     assert main.main() is None
-
-
-def test_parse_args():
-    # Should return namespace
-    assert isinstance(main.parse_args(), argparse.Namespace)
 
 
 def test_find_dupes_in_dir(monkeypatch):
