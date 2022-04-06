@@ -1,0 +1,8 @@
+__title__ = "dupeutil"
+__description__ = "A command-line program written in Python for detecting and removing duplicate files"
+__url__ = "https://github.com/giosali/dupeutil"
+__version__ = "1.0.0"
+__author__ = "Giovanni Salinas"
+__author_email__ = "gio_sali@outlook.com"
+__license__ = "MIT"
+__copyright__ = "Copyright 2022 Giovanni Salinas"
