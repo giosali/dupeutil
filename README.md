@@ -55,7 +55,9 @@ dupeutil
 
 That's it. The program will then check for duplicate files in the *current working directory* and provide you with a prompt that shows which duplicates were found and ask if you would like to remove them.
 
-<img src="https://raw.githubusercontent.com/giosali/dupeutil/main/ext/example.png" alt="Example" align="center" width="500">
+<p align="center">
+    <img src="https://raw.githubusercontent.com/giosali/dupeutil/main/ext/example.png" alt="Example" width="500">
+</p>
 
 Alternatively, if you would like to check a particular directory without it being the current working directory, you can explicitly pass it a directory:
 
